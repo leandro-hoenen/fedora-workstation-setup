@@ -1,0 +1,5 @@
+- name: Install DNF packages
+  dnf:
+    - nodejs
+    - snapd
+    - // further packages
